@@ -1,0 +1,32 @@
+{
+  "identifier": "desktop-capability",
+  "platforms": ["macOS", "windows", "linux"],
+  "windows": ["main", "game_error*", "game_log*"],
+  "permissions": [
+    "window-state:default",
+    "fs:default",
+    {
+      "identifier": "fs:scope",
+      "allow": [
+        {
+          "path": "**"
+        }
+      ]
+    },
+    "opener:default",
+    {
+      "identifier": "opener:allow-open-path",
+      "allow": [
+        {
+          "path": "**"
+        },
+        {
+          "path": "**/.minecraft"
+        },
+        {
+          "path": "**/.minecraft/**"
+        }
+      ]
+    }
+  ]
+}
