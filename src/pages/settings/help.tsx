@@ -89,7 +89,9 @@ const HelpSettingsPage = () => {
       items: [
         {
           title: t("HelpSettingsPage.community.settings.IMUCraft.title"),
-          description: t("HelpSettingsPage.community.settings.IMUCraft.description"),
+          description: t(
+            "HelpSettingsPage.community.settings.IMUCraft.description"
+          ),
           children: (
             <CommonIconButton
               label={t("HelpSettingsPage.community.settings.IMUCraft.url")}

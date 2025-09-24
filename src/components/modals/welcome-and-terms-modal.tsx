@@ -3,7 +3,6 @@ import {
   AlertIcon,
   Button,
   HStack,
-  Image,
   Link,
   Modal,
   ModalBody,

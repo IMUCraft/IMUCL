@@ -85,9 +85,7 @@ const AboutSettingsPage = () => {
       items: [
         {
           title: t("AboutSettingsPage.ack.settings.SJMC.title"),
-          description: t(
-            "AboutSettingsPage.ack.settings.SJMC.description"
-          ),
+          description: t("AboutSettingsPage.ack.settings.SJMC.description"),
           children: (
             <CommonIconButton
               label="https://github.com/UNIkeEN/SJMCL"
@@ -218,7 +216,9 @@ const AboutSettingsPage = () => {
           ),
         },
         {
-          title: t("AboutSettingsPage.legalInfo.settings.IMUuserAgreement.title"),
+          title: t(
+            "AboutSettingsPage.legalInfo.settings.IMUuserAgreement.title"
+          ),
           children: (
             <CommonIconButton
               label={t(
