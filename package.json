@@ -60,6 +60,7 @@
     "skinview3d": "^3.1.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.36.0",
     "@next/bundle-analyzer": "^15.1.2",
     "@tauri-apps/cli": "^2.7.0",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
@@ -70,14 +71,18 @@
     "@types/react-dom": "^18",
     "@types/react-virtualized": "^9.22.0",
     "chalk": "^4.1.2",
-    "eslint": "^8",
+    "eslint": "^8.57.1",
     "eslint-config-next": "15.0.3",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-unused-imports": "^4.1.4",
+    "globals": "^16.4.0",
     "husky": "^9.1.7",
+    "jiti": "^2.6.0",
     "lint-staged": "^15.2.10",
     "prettier": "^3.4.1",
-    "typescript": "^5"
+    "typescript": "^5",
+    "typescript-eslint": "^8.44.1"
   }
 }
